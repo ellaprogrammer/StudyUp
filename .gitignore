@@ -1,0 +1,16 @@
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders
+build/
+target/
+*.DS_Store
+.classpath
+>>>>>>> f868d9f... Add initial version
