@@ -12,10 +12,15 @@
 Copy/paste URL into Chrome (don't use Eclipse built-in browser)
 
 
-## Navigating the App
+## Navigating & Understanding the App
+WebContent > index.jsp is the heart of the webapp. Java is sandwhiched between `<% %>` markers.
+Java is the backend of the app. 
 More to come here...
 
 ## Other Helpful Info
 - We are running a Maven app.
 - Recommended server = Tomcat v9.0
+- Project requires Java 9.0+
+- Using Nomatim API for the map component
+- Bootstrap for styling as of now
 - http://localhost:8080/StudyUp/
