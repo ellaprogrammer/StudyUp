@@ -1,14 +1,12 @@
 version: '3'
 services:
-  studyup:
-    image: studyup-img
-    ports:
-     - "80:8080"
-  
-  redis:
-    image: "redis"
-  
-  database:
-    image: nginx-img
-    links:
-     - redis
+        studyup:
+                image: studyup-img
+                ports:
+                        - "80:8080"
+        redis:
+                image: "redis"
+        database:
+                image: nginx-img
+                links:
+                        - redis
